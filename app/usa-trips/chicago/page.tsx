@@ -24,9 +24,9 @@ const HIGHLIGHTS = [
 ]
 
 const TRIPS = [
-  { title: "Chicago Student Tour", duration: "3 Day / 2 Night", img: '/images/landmark/chicago-1.jpg', href: "/usa-trips/chicago/chicago-student-tour/" },
-  { title: "The Windy City Tour", duration: "5 Day / 4 Night", img: '/images/landmark/chicago-2.jpg', href: "/usa-trips/chicago/the-windy-city-tour/" },
-  { title: "Chicago Spanish Immersion School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/chicago-3.jpg', href: "/usa-trips/chicago/chicago-spanish-immersion-school-trip/" },
+  { title: "Chicago Student Tour", duration: "3 Day / 2 Night", img: '/images/landmark/chicago-student-the-bean.jpg', href: "/usa-trips/chicago/chicago-student-tour/" },
+  { title: "The Windy City Tour", duration: "5 Day / 4 Night", img: '/images/landmark/chicago-windy-city-360.jpg', href: "/usa-trips/chicago/the-windy-city-tour/" },
+  { title: "Chicago Spanish Immersion School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/chicago-spanish-pilsen-murals.jpg', href: "/usa-trips/chicago/chicago-spanish-immersion-school-trip/" },
 ]
 
 const STEPS = [
@@ -42,7 +42,7 @@ export default function Chicago() {
         eyebrow="Chicago, IL · The Windy City"
         title={<>Educational Field Trips in <em>Chicago</em></>}
         subtitle="From lakefront museums to riverfront architecture tours, Chicago turns lessons into vivid, hands-on discoveries for student groups of every grade level."
-        image="/images/landmark/chicago-hero.jpg"
+        image="/images/landmark/chicago-hero-skyline-lake.jpg"
         breadcrumb={[{ label: 'Destinations', href: '/destinations/' }, { label: "Chicago" }]}
       />
 
@@ -51,8 +51,9 @@ export default function Chicago() {
         city="Chicago"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/chicago-3.jpg"
-        imageAlt="The Chicago Theatre marquee on a Chicago educational tour"
+        image="/images/landmark/chicago-intro-fusion-skyline.jpg"
+        wideImage
+        imageAlt="A Landmark student group with the Chicago skyline and Lake Michigan behind them"
         tripCount={TRIPS.length}
       />
 
@@ -102,7 +103,7 @@ export default function Chicago() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

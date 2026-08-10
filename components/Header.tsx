@@ -108,7 +108,6 @@ const NAV: NavItem[] = [
       { label: 'Blog', href: '/blog/' },
       { label: 'FAQ', href: '/faq/' },
       { label: 'Testimonials', href: '/testimonials/' },
-      { label: 'Plan a Trip', href: '/plan-a-trip/' },
     ],
   },
 ]
@@ -230,7 +229,7 @@ export default function Header() {
 
           <div className="ileh-cta-group">
             <a href={PORTAL_URL} className="ileh-login" target="_blank" rel="noopener noreferrer">Login</a>
-            <Link href="/get-a-quote/" className="ileh-cta">Get a Quote</Link>
+            <Link href="/plan-a-trip/" className="ileh-cta">Plan a Trip</Link>
           </div>
 
           <button
@@ -279,7 +278,7 @@ export default function Header() {
           )
         })}
         <div className="ileh-m-cta">
-          <Link href="/get-a-quote/" className="ile-btn ile-btn--primary" onClick={() => setMobileOpen(false)}>Get a Quote</Link>
+          <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary" onClick={() => setMobileOpen(false)}>Plan a Trip</Link>
           <a href={PORTAL_URL} className="ile-btn ile-btn--ghost" target="_blank" rel="noopener noreferrer">Login to Portal</a>
         </div>
       </div>

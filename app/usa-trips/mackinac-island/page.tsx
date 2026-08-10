@@ -21,8 +21,8 @@ const HIGHLIGHTS = [
   "Great Lakes natural beauty",
 ]
 const TRIPS = [
-  { title: "Mackinac Island School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/mackinac-1.jpg', href: "/usa-trips/mackinac-island/mackinac-island-school-trip/" },
-  { title: "Mackinac Island Field Trip", duration: "2 Day / 1 Night", img: '/images/landmark/mackinac-2.jpg', href: "/usa-trips/mackinac-island/mackinac-island-field-trip/" },
+  { title: "Mackinac Island School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/mackinac-school-tipton-overlook.jpg', href: "/usa-trips/mackinac-island/mackinac-island-school-trip/" },
+  { title: "Mackinac Island Field Trip", duration: "2 Day / 1 Night", img: '/images/landmark/mackinac-field-lake-huron.jpg', href: "/usa-trips/mackinac-island/mackinac-island-field-trip/" },
 ]
 
 const STEPS = [
@@ -47,8 +47,9 @@ export default function MackinacIsland() {
         city="Mackinac Island"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/mackinac-1.jpg"
-        imageAlt="Historic Fort Mackinac on Mackinac Island"
+        image="/images/landmark/mackinac-intro-round-island-lighthouse.jpg"
+        wideImage
+        imageAlt="The Round Island Lighthouse near Mackinac Island, Michigan"
         tripCount={TRIPS.length}
       />
 
@@ -98,7 +99,7 @@ export default function MackinacIsland() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

@@ -20,9 +20,9 @@ const HIGHLIGHTS = [
   "Texas independence and heritage",
 ]
 const TRIPS = [
-  { title: "Intro to San Antonio Tour", duration: "5 Day / 4 Night", img: '/images/landmark/san-antonio-1.jpg', href: "/usa-trips/san-antonio/intro-to-san-antonio-tour/" },
-  { title: "3 Day San Antonio School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/san-antonio-2.jpg', href: "/usa-trips/san-antonio/3-day-san-antonio-school-trip/" },
-  { title: "San Antonio Field Trip", duration: "4 Day / 3 Night", img: '/images/landmark/san-antonio-3.jpg', href: "/usa-trips/san-antonio/san-antonio-field-trip/" },
+  { title: "Intro to San Antonio Tour", duration: "5 Day / 4 Night", img: '/images/landmark/san-antonio-intro-tower.jpg', href: "/usa-trips/san-antonio/intro-to-san-antonio-tour/" },
+  { title: "3 Day San Antonio School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/san-antonio-3day-mission.jpg', href: "/usa-trips/san-antonio/3-day-san-antonio-school-trip/" },
+  { title: "San Antonio Field Trip", duration: "4 Day / 3 Night", img: '/images/landmark/san-antonio-field-riverwalk-boats.jpg', href: "/usa-trips/san-antonio/san-antonio-field-trip/" },
 ]
 
 const STEPS = [
@@ -47,8 +47,9 @@ export default function SanAntonio() {
         city="San Antonio"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/san-antonio-1.jpg"
-        imageAlt="The River Walk in San Antonio, Texas"
+        image="/images/landmark/san-antonio-intro-alamo.jpg"
+        wideImage
+        imageAlt="The Alamo in San Antonio, Texas"
         tripCount={TRIPS.length}
       />
 
@@ -98,7 +99,7 @@ export default function SanAntonio() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

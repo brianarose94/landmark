@@ -20,8 +20,8 @@ const HIGHLIGHTS = [
   "Media, technology, and storytelling",
 ]
 const TRIPS = [
-  { title: "Los Angeles School Trip", duration: "5 Day / 4 Night", img: '/images/landmark/los-angeles-1.jpg', href: "/usa-trips/los-angeles/los-angeles-school-trip/" },
-  { title: "Los Angeles Field Trip", duration: "4 Day / 3 Night", img: '/images/landmark/los-angeles-2.jpg', href: "/usa-trips/los-angeles/los-angeles-field-trip/" },
+  { title: "Los Angeles School Trip", duration: "5 Day / 4 Night", img: '/images/landmark/los-angeles-school-griffith.jpg', href: "/usa-trips/los-angeles/los-angeles-school-trip/" },
+  { title: "Los Angeles Field Trip", duration: "4 Day / 3 Night", img: '/images/landmark/los-angeles-field-santa-monica-pier.jpg', href: "/usa-trips/los-angeles/los-angeles-field-trip/" },
 ]
 
 const STEPS = [
@@ -46,8 +46,9 @@ export default function LosAngeles() {
         city="Los Angeles"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/los-angeles-1.jpg"
-        imageAlt="Los Angeles on a student educational tour"
+        image="/images/landmark/los-angeles-intro-disneyland-castle.jpg"
+        wideImage
+        imageAlt="Sleeping Beauty Castle at Disneyland near Los Angeles, California"
         tripCount={TRIPS.length}
       />
 
@@ -97,7 +98,7 @@ export default function LosAngeles() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

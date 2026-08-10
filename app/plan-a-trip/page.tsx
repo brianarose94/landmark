@@ -1,46 +1,90 @@
-import Link from 'next/link'
 import PageHero from '@/components/PageHero'
+import HubSpotForm from '@/components/HubSpotForm'
 import HubSpotMeetings from '@/components/HubSpotMeetings'
 import JsonLd from '@/lib/seo/JsonLd'
 import { breadcrumb } from '@/lib/seo/schemas'
+
+const TRUST = [
+  { title: 'A real human, not a bot', text: 'A dedicated Landmark Travel Consultant builds your itinerary by hand around your group and curriculum.' },
+  { title: 'Fully customizable', text: 'Every destination, date, grade level, and budget is tailored to your school. Nothing is off the shelf.' },
+  { title: 'No obligation', text: 'Planning with us is free. Review your itinerary, ask questions, and only move forward when the plan feels right.' },
+]
+
+const PROCESS = [
+  { title: 'Share Your Vision', body: 'Fill out the quick form below with your group, destination, and trip details.' },
+  { title: 'Meet Your Travel Consultant', body: 'A dedicated Landmark Travel Consultant builds a complimentary, tailored itinerary and tour package — flights, hotels, attractions, and meals — around your group.' },
+  { title: 'Review & Confirm', body: 'We walk through the proposal together, answer every question, and adjust until it is the perfect fit for your group.' },
+  { title: 'Confirm & Launch', body: 'Once everything looks perfect, we open your registration portal so families can easily sign up and get ready for the adventure.' },
+]
 
 export default function PlanATripPage() {
   return (
     <>
       <PageHero
         eyebrow="Plan a Trip"
-        title={<>Let&rsquo;s Plan Your <em>Trip</em></>}
-        subtitle="Book a call with a Landmark Travel Consultant. Expertise when you need it, fun when you want it."
-        image="/images/landmark/dc-hero.jpg"
+        title={<>Tell Us About Your <em>Trip</em></>}
+        subtitle="Share a few details and a Landmark Travel Consultant will build a custom, no-obligation plan for your group."
+        image="/images/landmark/hero-nyc.jpg"
         breadcrumb={[{ label: 'Plan a Trip' }]}
       />
 
-      <section className="ile-section ile-section--white">
+      <section className="ile-section ile-section--cream" aria-labelledby="pt-process-h">
         <div className="ile-container">
           <div className="ile-center lm-narrow">
-            <span className="ile-eyebrow">Book a Call</span>
-            <h2 className="lm-h2-amber">TALK TO A TRAVEL CONSULTANT</h2>
-            <p className="ile-lead lm-center-lead">
-              Pick a time that works for you and one of our Travel Consultants will walk through your goals, group, and destinations, then handle the heavy lifting from there.
-            </p>
+            <span className="ile-eyebrow">How it works</span>
+            <h2 id="pt-process-h" className="lm-h2-amber">HOW OUR PROCESS WORKS</h2>
+            <p className="ile-lead lm-center-lead">From first idea to a fully-planned trip in four simple steps.</p>
           </div>
-          <div style={{ marginTop: 36, maxWidth: 900, marginLeft: 'auto', marginRight: 'auto' }}>
+          <div className="ilp-grid-4 lm-process" style={{ marginTop: 44 }}>
+            {PROCESS.map((s, i) => (
+              <div className="lm-process-card" key={s.title}>
+                <span className="lm-process-num">{i + 1}</span>
+                <h3>{s.title}</h3>
+                <p>{s.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="ile-section ile-section--white">
+        <div className="ile-container">
+          <div className="lm-form-card lm-form-card--quote">
+            <h2 className="lm-h2-amber" style={{ textAlign: 'center' }}>START PLANNING YOUR TRIP</h2>
+            <p className="lm-form-intro" style={{ textAlign: 'center' }}>
+              Tell us where you would like to go and a bit about your group. We will follow up with a customized, no-obligation plan and next steps.
+            </p>
+            <HubSpotForm formId="2bb4a315-aed5-475b-b26d-63619efafea7" sectioned />
+          </div>
+        </div>
+      </section>
+
+      <section className="ile-section ile-section--cream" aria-labelledby="pt-call-h">
+        <div className="ile-container">
+          <div className="ile-center lm-narrow">
+            <span className="ile-eyebrow">Prefer to talk it through?</span>
+            <h2 id="pt-call-h" className="lm-h2-amber">BOOK A CALL</h2>
+            <p className="ile-lead lm-center-lead">Rather start with a conversation? Schedule a quick call with a Landmark Travel Consultant and we&apos;ll help you plan your group&apos;s trip.</p>
+          </div>
+          <div className="lm-narrow" style={{ marginTop: 32 }}>
             <HubSpotMeetings slug="michaelaruffino/landmark" />
           </div>
         </div>
       </section>
 
-      <section className="ile-section ile-section--cream" aria-labelledby="pt-quote-h">
+      <section className="ile-section ile-section--white" aria-labelledby="pt-trust-h">
         <div className="ile-container">
           <div className="ile-center lm-narrow">
-            <span className="ile-eyebrow">Prefer to send details?</span>
-            <h2 id="pt-quote-h" className="lm-h2-amber">GET A CUSTOMIZED QUOTE</h2>
-            <p className="ile-lead lm-center-lead">
-              Not sure what you are looking for? Provide a few details and let our Travel Consultants do all of the heavy lifting.
-            </p>
+            <span className="ile-eyebrow">Why Landmark</span>
+            <h2 id="pt-trust-h" className="lm-h2-amber">WHAT TO EXPECT</h2>
           </div>
-          <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Request a Free Quote</Link>
+          <div className="ilp-grid-3" style={{ marginTop: 40 }}>
+            {TRUST.map((t) => (
+              <div className="ilm-card" key={t.title}>
+                <h3>{t.title}</h3>
+                <p>{t.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

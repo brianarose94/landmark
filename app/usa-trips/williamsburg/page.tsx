@@ -20,8 +20,8 @@ const HIGHLIGHTS = [
   "Colonial life and self-governance",
 ]
 const TRIPS = [
-  { title: "Williamsburg School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/williamsburg-1.jpg', href: "/usa-trips/williamsburg/williamsburg-school-trip/" },
-  { title: "Williamsburg Field Trip", duration: "2 Day / 1 Night", img: '/images/landmark/williamsburg-2.jpg', href: "/usa-trips/williamsburg/williamsburg-field-trip/" },
+  { title: "Williamsburg School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/williamsburg-school-great-bridge.jpg', href: "/usa-trips/williamsburg/williamsburg-school-trip/" },
+  { title: "Williamsburg Field Trip", duration: "2 Day / 1 Night", img: '/images/landmark/williamsburg-field-jamestown-group.jpg', href: "/usa-trips/williamsburg/williamsburg-field-trip/" },
 ]
 
 const STEPS = [
@@ -46,8 +46,9 @@ export default function Williamsburg() {
         city="Williamsburg"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/williamsburg-1.jpg"
-        imageAlt="Colonial Williamsburg's historic district"
+        image="/images/landmark/williamsburg-intro-governors-palace.jpg"
+        wideImage
+        imageAlt="A Landmark student group at the Governor's Palace gardens in Colonial Williamsburg"
         tripCount={TRIPS.length}
       />
 
@@ -97,7 +98,7 @@ export default function Williamsburg() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

@@ -33,7 +33,7 @@ export default function Canada() {
         eyebrow="Destinations · Canada"
         title={<>Educational Tours to <em>Canada</em></>}
         subtitle="French heritage and walled cities just across the northern border: safe, guided, curriculum-aligned student trips to Quebec City and Montreal."
-        image="/images/landmark/canada-hero.jpg"
+        image="/images/landmark/canada-hero-quebec-skyline.jpg"
         breadcrumb={[{ label: "Destinations", href: "/destinations/" }, { label: "Canada" }]}
       />
 
@@ -45,7 +45,7 @@ export default function Canada() {
             <p>{INTRO_P2}</p>
           </div>
           <div className="ile-center" style={{ marginTop: 32 }}>
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>
@@ -60,11 +60,11 @@ export default function Canada() {
           </div>
           <div className="lm-intl-grid" style={{ marginTop: 8 }}>
             <Link href="/canada/quebec-city/" className="lm-dest" key="Quebec City" aria-label="Quebec City educational tours">
-              <img src="/images/landmark/quebec-hero.jpg" alt="" loading="lazy" />
+              <img src="/images/landmark/canada-quebec-city-students.jpg" alt="" loading="lazy" />
               <span className="lm-dest-label">Quebec City <span aria-hidden="true">&rarr;</span></span>
             </Link>
             <Link href="/canada/montreal/" className="lm-dest" key="Montreal" aria-label="Montreal educational tours">
-              <img src="/images/landmark/montreal-hero.jpg" alt="" loading="lazy" />
+              <img src="/images/landmark/canada-montreal-bonjour-group.jpg" alt="" loading="lazy" />
               <span className="lm-dest-label">Montreal <span aria-hidden="true">&rarr;</span></span>
             </Link>
           </div>
@@ -109,7 +109,7 @@ export default function Canada() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

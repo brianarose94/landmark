@@ -36,7 +36,7 @@ const sampleTab = (
     <div className="ilp-infocard">
       <h3>A detailed day-by-day sample is on the way.</h3>
       <p style={{ color: 'var(--lm-ink-muted)', fontSize: 15, lineHeight: 1.7 }}>Every Landmark trip is fully customized to your group. Reach out and our Travel Consultants will map out the perfect Private School Field Trip itinerary around your dates, grade level, and goals.</p>
-      <Link href="/get-a-quote/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan Your Custom Itinerary</Link>
+      <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan a Trip</Link>
     </div>
   </>
 )
@@ -47,7 +47,7 @@ const descriptionTab = (
     <p>{DESC_P1}</p>
 
     <p className="lm-sample-note"><em>Note: This is a SAMPLE provided for inspiration only. (Unless you love it!) Every trip we offer is fully customizable.</em></p>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Plan Your Custom Trip Today</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
   </div>
 )
 
@@ -59,7 +59,7 @@ const inclusionsTab = (
       {INCLUSIONS.map(([label, text]) => (<li key={label}><strong>{label}</strong>: {text}</li>))}
       <li><strong>&amp; More!</strong></li>
     </ul>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Get a Custom Quote</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan a Trip</Link>
   </div>
 )
 
@@ -93,7 +93,7 @@ export default function PrivateSchoolField() {
                 <div><dt>Best for</dt><dd>All grade levels</dd></div>
                 <div><dt>Style</dt><dd>Private, fully customizable</dd></div>
               </dl>
-              <Link href="/get-a-quote/" className="ile-btn ile-btn--primary lm-summary-cta">Get a Quote</Link>
+              <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary lm-summary-cta">Plan a Trip</Link>
               <Link href="/themes/" className="lm-summary-link">More trip themes {ArrowR}</Link>
             </div>
           </aside>

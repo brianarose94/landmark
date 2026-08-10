@@ -13,7 +13,7 @@ export default function DestinationIntro({
   image,
   imageAlt,
   tripCount,
-  ctaHref = '/get-a-quote/',
+  ctaHref = '/plan-a-trip/',
   wideImage = false,
 }: {
   city: string
@@ -46,7 +46,7 @@ export default function DestinationIntro({
                 </ul>
               </>
             )}
-            <Link href={ctaHref} className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href={ctaHref} className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
           <div className={`lm-dest-intro__media${wideImage ? ' lm-dest-intro__media--wide' : ''}`}>
             <img src={image} alt={imageAlt} loading="lazy" />

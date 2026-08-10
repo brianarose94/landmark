@@ -14,7 +14,6 @@ const ROUTES: { path: string; priority: number; changeFrequency: 'weekly' | 'mon
   { path: '/destinations/', priority: 0.8, changeFrequency: 'weekly' },
   { path: '/east-coast/', priority: 0.8, changeFrequency: 'weekly' },
   { path: '/faq/', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/get-a-quote/', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/europe/', priority: 0.8, changeFrequency: 'weekly' },
   { path: '/asia/', priority: 0.8, changeFrequency: 'weekly' },
   { path: '/central-south-america/', priority: 0.8, changeFrequency: 'weekly' },

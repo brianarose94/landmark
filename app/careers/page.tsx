@@ -25,7 +25,7 @@ export default function Careers() {
         eyebrow="Join Our team"
         title={<><em>Careers</em> at Landmark</>}
         subtitle="Explore our current openings and help us make educational travel possible for every student."
-        image="/images/landmark/chicago-hero.jpg"
+        image="/images/landmark/careers-capitol-hero.jpg"
         breadcrumb={[{ label: "Careers" }]}
       />
 

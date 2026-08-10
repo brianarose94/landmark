@@ -5,7 +5,7 @@ export default function CtaBand({
   eyebrow = 'Educational Travel, Customized for You',
   title = 'Ready to Plan Your Next Trip?',
   text = 'Tell us where you want to go. We’ll craft a safe, custom itinerary built around your students, your goals, and your budget.',
-  primary = { label: 'Get a Free Quote', href: '/get-a-quote/' },
+  primary = { label: 'Plan a Trip', href: '/plan-a-trip/' },
   secondary = { label: 'Talk to a Travel Consultant', href: '/contact-us/' },
 }: {
   eyebrow?: string

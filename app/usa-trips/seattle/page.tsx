@@ -20,7 +20,7 @@ const HIGHLIGHTS = [
   "Innovation and the tech industry",
 ]
 const TRIPS = [
-  { title: "Seattle School Trip", duration: "4 Day / 3 Night", img: '/images/landmark/seattle-1.jpg', href: "/usa-trips/seattle/seattle-school-trip/" },
+  { title: "Seattle School Trip", duration: "4 Day / 3 Night", img: '/images/landmark/seattle-school-chihuly-garden.jpg', href: "/usa-trips/seattle/seattle-school-trip/" },
 ]
 
 const STEPS = [
@@ -45,8 +45,9 @@ export default function Seattle() {
         city="Seattle"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/seattle-1.jpg"
-        imageAlt="The Seattle skyline and waterfront"
+        image="/images/landmark/seattle-intro-pike-place.jpg"
+        wideImage
+        imageAlt="The Public Market Center sign at Pike Place Market in Seattle"
         tripCount={TRIPS.length}
       />
 
@@ -96,7 +97,7 @@ export default function Seattle() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

@@ -33,7 +33,7 @@ export default function France() {
         eyebrow="Europe · France"
         title={<>Educational Tours to <em>France</em></>}
         subtitle="From the halls of the Louvre to the streets of the Revolution, France immerses students in art, history, and living language."
-        image="/images/landmark/intl-france.jpg"
+        image="/images/landmark/france-hero-paris-rooftops.jpg"
         breadcrumb={[{ label: 'Destinations', href: '/destinations/' }, { label: 'Europe', href: '/europe/' }, { label: "France" }]}
       />
 
@@ -45,7 +45,7 @@ export default function France() {
             <p>{INTRO_P2}</p>
           </div>
           <div className="ile-center" style={{ marginTop: 32 }}>
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>
@@ -88,7 +88,7 @@ export default function France() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

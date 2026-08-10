@@ -62,7 +62,8 @@ export default function Italy() {
         city="Italy"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/intl-italy-group.jpg"
+        image="/images/landmark/italy-intro-colosseum-group.jpg"
+        wideImage
         imageAlt="A Landmark student group inside the Colosseum in Rome, Italy"
         tripCount={TRIPS.length}
       />
@@ -134,7 +135,7 @@ export default function Italy() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

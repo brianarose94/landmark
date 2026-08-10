@@ -33,7 +33,7 @@ export default function England() {
         eyebrow="Europe · England"
         title={<>Educational Tours to <em>England</em></>}
         subtitle="Explore royal castles, historic cathedrals, and literary landmarks that bring centuries of English history and culture to life for students."
-        image="/images/landmark/intl-england.webp"
+        image="/images/landmark/england-hero-big-ben-thames.jpg"
         breadcrumb={[{ label: 'Destinations', href: '/destinations/' }, { label: 'Europe', href: '/europe/' }, { label: "England" }]}
       />
 
@@ -45,7 +45,7 @@ export default function England() {
             <p>{INTRO_P2}</p>
           </div>
           <div className="ile-center" style={{ marginTop: 32 }}>
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>
@@ -88,7 +88,7 @@ export default function England() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

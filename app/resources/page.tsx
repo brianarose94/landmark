@@ -78,7 +78,7 @@ export default function Resources() {
       </section>
       <section className="ile-section ile-section--cream">
         <div className="ile-container ile-center">
-          <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+          <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
         </div>
       </section>
       <BrochureBand />

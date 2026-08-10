@@ -46,7 +46,7 @@ export default function FAQ() {
             <FaqAccordion items={FAQS} />
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Still have questions? Get a Quote</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Still have questions? Plan a Trip</Link>
           </div>
         </div>
       </section>

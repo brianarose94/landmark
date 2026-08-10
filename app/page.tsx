@@ -24,8 +24,8 @@ const TOP_TOURS = [
     location: 'Washington, D.C.',
     title: 'History in the Nation’s Capital',
     blurb: 'Get ready for an unforgettable journey through the history, landmarks, and legacy of Washington, D.C.!',
-    img: '/images/landmark/mlk-memorial-washington-dc.jpg',
-    alt: 'Martin Luther King Jr. Memorial in Washington, D.C.',
+    img: '/images/landmark/dc-fdr-memorial-group.jpg',
+    alt: 'A Landmark student group at the Franklin Delano Roosevelt Memorial in Washington, D.C.',
     href: '/usa-trips/washington-dc/8th-grade-washington-dc-trip-itinerary/',
   },
   {
@@ -49,10 +49,10 @@ const TOP_TOURS = [
 ]
 
 const DESTINATIONS = [
-  { name: 'Washington, D.C.', href: '/usa-trips/washington-dc/', img: '/images/landmark/fall-in-washington-dc.jpeg' },
-  { name: 'New York City', href: '/usa-trips/new-york-city/', img: '/images/landmark/broadway-sign-nyc.jpg' },
-  { name: 'Boston', href: '/usa-trips/boston/', img: '/images/landmark/ethical-culture-boston.jpg' },
-  { name: 'Atlanta', href: '/usa-trips/atlanta/', img: '/images/landmark/atlanta-skyline.jpg' },
+  { name: 'Washington, D.C.', href: '/usa-trips/washington-dc/', img: '/images/landmark/dc-lincoln-memorial-group.jpg' },
+  { name: 'New York City', href: '/usa-trips/new-york-city/', img: '/images/landmark/nyc-top-of-the-rock-group.jpg' },
+  { name: 'Boston', href: '/usa-trips/boston/', img: '/images/landmark/boston-fenway-group.jpg' },
+  { name: 'Atlanta', href: '/usa-trips/atlanta/', img: '/images/landmark/atlanta-centennial-park-group.jpg' },
 ]
 
 // New: international educational journeys (global expansion)
@@ -226,7 +226,7 @@ export default function Home() {
             <h2 id="themed-h" className="lm-h2-amber">THEMED TRAVEL</h2>
             <p className="ile-lead lm-center-lead">{THEMED_INTRO}</p>
             <div className="lm-after-grid" style={{ marginTop: 8 }}>
-              <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Plan A Trip</Link>
+              <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
             </div>
           </div>
           <div className="lm-tour-grid lm-theme-grid">

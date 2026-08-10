@@ -33,7 +33,7 @@ export default function Japan() {
         eyebrow="Asia · Japan"
         title={<>Educational Tours to <em>Japan</em></>}
         subtitle="Students walk from ancient temples to neon skylines, seeing how Japan weaves tradition and innovation into everyday life."
-        image="/images/landmark/intl-japan.webp"
+        image="/images/landmark/japan-hero-fuji-pagoda.jpg"
         breadcrumb={[{ label: 'Destinations', href: '/destinations/' }, { label: 'Asia', href: '/asia/' }, { label: "Japan" }]}
       />
 
@@ -45,7 +45,7 @@ export default function Japan() {
             <p>{INTRO_P2}</p>
           </div>
           <div className="ile-center" style={{ marginTop: 32 }}>
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>
@@ -88,7 +88,7 @@ export default function Japan() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

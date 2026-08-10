@@ -20,8 +20,8 @@ const HIGHLIGHTS = [
   "Colonial-era architecture and stories",
 ]
 const TRIPS = [
-  { title: "Savannah Field Trip", duration: "3 Day / 2 Night", img: '/images/landmark/savannah-1.jpg', href: "/usa-trips/savannah/savannah-field-trip/" },
-  { title: "Savannah School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/savannah-2.jpg', href: "/usa-trips/savannah/savannah-school-trip/" },
+  { title: "Savannah Field Trip", duration: "3 Day / 2 Night", img: '/images/landmark/savannah-field-eton-square.jpg', href: "/usa-trips/savannah/savannah-field-trip/" },
+  { title: "Savannah School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/savannah-school-forsyth-fountain.jpg', href: "/usa-trips/savannah/savannah-school-trip/" },
 ]
 
 const STEPS = [
@@ -46,8 +46,9 @@ export default function Savannah() {
         city="Savannah"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/savannah-1.jpg"
-        imageAlt="Historic squares in Savannah, Georgia"
+        image="/images/landmark/savannah-intro-oak-avenue.jpg"
+        wideImage
+        imageAlt="A live oak avenue draped with Spanish moss near Savannah, Georgia"
         tripCount={TRIPS.length}
       />
 
@@ -97,7 +98,7 @@ export default function Savannah() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

@@ -20,9 +20,9 @@ const HIGHLIGHTS = [
   "Where creativity meets technology",
 ]
 const TRIPS = [
-  { title: "Orlando Student Trip", duration: "3 Day / 2 Night", img: '/images/landmark/orlando-eye.jpg', href: "/usa-trips/orlando/orlando-student-tour/" },
-  { title: "Orlando Extended Student Tour", duration: "5 Day / 4 Night", img: '/images/landmark/orlando-2.jpg', href: "/usa-trips/orlando/orlando-student-tour-extended/" },
-  { title: "Disney Educational Tour", duration: "5 Day / 4 Night", img: '/images/landmark/orlando-skyline.jpg', href: "/usa-trips/orlando/disney-educational-tours/" },
+  { title: "Orlando Student Trip", duration: "3 Day / 2 Night", img: '/images/landmark/orlando-student-animal-kingdom.jpg', href: "/usa-trips/orlando/orlando-student-tour/" },
+  { title: "Orlando Extended Student Tour", duration: "5 Day / 4 Night", img: '/images/landmark/orlando-extended-magic-kingdom.jpg', href: "/usa-trips/orlando/orlando-student-tour-extended/" },
+  { title: "Disney Educational Tour", duration: "5 Day / 4 Night", img: '/images/landmark/orlando-disney-kennedy-space.jpg', href: "/usa-trips/orlando/disney-educational-tours/" },
 ]
 
 const STEPS = [
@@ -47,8 +47,9 @@ export default function Orlando() {
         city="Orlando"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/orlando-2.jpg"
-        imageAlt="A space shuttle launch at the Kennedy Space Center near Orlando"
+        image="/images/landmark/orlando-intro-epcot.jpg"
+        wideImage
+        imageAlt="A Landmark student group at Spaceship Earth in EPCOT at Walt Disney World, Orlando"
         tripCount={TRIPS.length}
       />
 
@@ -98,7 +99,7 @@ export default function Orlando() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

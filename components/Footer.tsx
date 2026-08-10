@@ -45,7 +45,7 @@ export default function Footer() {
         <h2>Let&apos;s Plan Your Next Adventure</h2>
         <p>Tell us your destination, dates, and group size, and we&apos;ll build a safe, fully customized itinerary and a free quote, with a real person guiding you every step of the way.</p>
         <div className="ilef-cta-actions">
-          <Link href="/get-a-quote/" className="ile-btn ile-btn--gold">Get a Free Quote</Link>
+          <Link href="/plan-a-trip/" className="ile-btn ile-btn--gold">Plan a Trip</Link>
           <Link href="/contact-us/" className="ile-btn ile-btn--outline-light">Talk to a Travel Consultant</Link>
         </div>
       </div>
@@ -86,7 +86,6 @@ export default function Footer() {
           <div className="ilef-links">
             <Link href="/themes/">Themes</Link>
             <Link href="/plan-a-trip/">Plan a Trip</Link>
-            <Link href="/get-a-quote/">Get a Quote</Link>
             <Link href="/blog/">Blog</Link>
             <Link href="/faq/">FAQ</Link>
           </div>

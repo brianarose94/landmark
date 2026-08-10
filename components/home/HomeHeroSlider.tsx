@@ -16,15 +16,15 @@ type Slide = {
    international educational journeys, with the U.S. business still featured. */
 const SLIDES: Slide[] = [
   {
-    img: '/images/landmark/hero-dc-mlk.jpg',
+    img: '/images/landmark/home-hero-dc-capitol-group.jpg',
     title: 'Educational Travel,',
     accent: 'Customized for You.',
     sub: 'Safe, custom student trips across the U.S., Europe, Asia, and beyond.',
-    cta: 'Start Planning Now!',
-    href: '/get-a-quote/',
+    cta: 'Plan a Trip',
+    href: '/plan-a-trip/',
   },
   {
-    img: '/images/landmark/intl-italy.webp',
+    img: '/images/landmark/home-hero-italy-colosseum.jpg',
     title: 'The World Is',
     accent: 'Their Classroom.',
     sub: 'Now journeying beyond the U.S.: Italy, France, Ireland, Japan, South Korea, and more.',
@@ -32,12 +32,12 @@ const SLIDES: Slide[] = [
     href: '/destinations/',
   },
   {
-    img: '/images/landmark/intl-europe.webp',
+    img: '/images/landmark/home-hero-nyc-times-square-group.jpg',
     title: 'Where History',
     accent: 'Comes Alive.',
     sub: 'From Washington, D.C. to Tokyo, we design every detail around your students.',
-    cta: 'Plan Your Trip',
-    href: '/get-a-quote/',
+    cta: 'Plan a Trip',
+    href: '/plan-a-trip/',
   },
 ]
 

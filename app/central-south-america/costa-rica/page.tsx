@@ -20,8 +20,8 @@ const HIGHLIGHTS = [
   "A nation built on sustainability",
 ]
 const TRIPS = [
-  { title: "7 Day Costa Rica School Trip", duration: "7 Day / 6 Night", img: '/images/landmark/costa-rica-1.jpg', href: "/central-south-america/costa-rica/7-day-costa-rica-school-trip/" },
-  { title: "6 Day Costa Rica School Trip", duration: "6 Day / 5 Night", img: '/images/landmark/costa-rica-2.jpg', href: "/central-south-america/costa-rica/6-day-costa-rica-school-trip/" },
+  { title: "7 Day Costa Rica School Trip", duration: "7 Day / 6 Night", img: '/images/landmark/costa-rica-7day-rafting.jpg', href: "/central-south-america/costa-rica/7-day-costa-rica-school-trip/" },
+  { title: "6 Day Costa Rica School Trip", duration: "6 Day / 5 Night", img: '/images/landmark/costa-rica-6day-planting.jpg', href: "/central-south-america/costa-rica/6-day-costa-rica-school-trip/" },
 ]
 
 const STEPS = [
@@ -43,7 +43,7 @@ export default function CostaRica() {
         eyebrow="Central & South America · Costa Rica"
         title={<>Educational Tours to <em>Costa Rica</em></>}
         subtitle="Explore active volcanoes, cloud forests, and conservation projects while students discover what it means to live sustainably in one of Earth's most biodiverse nations."
-        image="/images/landmark/intl-costa-rica.webp"
+        image="/images/landmark/costa-rica-hero-la-fortuna.jpg"
         breadcrumb={[{ label: 'Destinations', href: '/destinations/' }, { label: 'Central & South America', href: '/central-south-america/' }, { label: "Costa Rica" }]}
       />
 
@@ -52,8 +52,9 @@ export default function CostaRica() {
         city="Costa Rica"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/intl-costa-rica-group.jpg"
-        imageAlt="A Landmark student group at a rainforest waterfall in Costa Rica"
+        image="/images/landmark/costa-rica-intro-arenal-group.jpg"
+        wideImage
+        imageAlt="A Landmark student group in front of the Arenal Volcano in Costa Rica"
         tripCount={TRIPS.length}
       />
 
@@ -123,7 +124,7 @@ export default function CostaRica() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

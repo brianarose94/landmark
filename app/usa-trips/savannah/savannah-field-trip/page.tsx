@@ -43,7 +43,7 @@ const sampleTab = (
     <div className="ilp-infocard">
       <h3>A detailed day-by-day sample is on the way.</h3>
       <p style={{ color: 'var(--lm-ink-muted)', fontSize: 15, lineHeight: 1.7 }}>Every Landmark trip is fully customized to your group, so we build your ideal Savannah Field Trip itinerary together around your dates, grade level, and goals. Reach out and our Travel Consultants will map out the perfect schedule.</p>
-      <Link href="/get-a-quote/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan Your Custom Itinerary</Link>
+      <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan a Trip</Link>
     </div>
   </>
 )
@@ -61,7 +61,7 @@ const descriptionTab = (
     <p className="lm-sample-note">
       <em>Note: This is a SAMPLE itinerary provided for inspiration only. (Unless you love it!) Every trip we offer is fully customizable, ensuring a personalized experience tailored to your school&rsquo;s educational goals.</em>
     </p>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Plan Your Custom Trip Today</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
   </div>
 )
 
@@ -80,7 +80,7 @@ const inclusionsTab = (
     <p style={{ marginTop: 20, color: 'var(--lm-ink-muted)', fontSize: 15, lineHeight: 1.7 }}>
       You have the flexibility to include or exclude specific services based on your group&rsquo;s preferences. While we recommend the value of an all-inclusive travel experience, the final decision is yours!
     </p>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Get a Custom Quote</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan a Trip</Link>
   </div>
 )
 
@@ -120,7 +120,7 @@ export default function Itin_usa_trips__savannah_tours__savannah_field_trip() {
                 <div><dt>Best for</dt><dd>All grade levels</dd></div>
                 <div><dt>Style</dt><dd>Private, fully customizable</dd></div>
               </dl>
-              <Link href="/get-a-quote/" className="ile-btn ile-btn--primary lm-summary-cta">Get a Quote</Link>
+              <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary lm-summary-cta">Plan a Trip</Link>
               <Link href="/usa-trips/savannah/" className="lm-summary-link">More Savannah packages {ArrowR}</Link>
             </div>
 

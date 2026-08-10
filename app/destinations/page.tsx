@@ -18,7 +18,7 @@ export default function Destinations() {
         eyebrow="Landmark Educational Tours"
         title={<>Explore Our <em>Destinations</em></>}
         subtitle="Every Landmark destination in one place: customizable, safe, curriculum-aligned educational trips across the U.S. and around the world."
-        image="/images/landmark/dc-hero.jpg"
+        image="/images/landmark/destinations-hero-national-mall.jpg"
         breadcrumb={[{ label: "Destinations" }]}
       />
 
@@ -190,7 +190,7 @@ export default function Destinations() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

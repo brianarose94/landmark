@@ -76,7 +76,7 @@ const descriptionTab = (
     <p className="lm-sample-note">
       <em>Note: This is a SAMPLE itinerary provided for inspiration only. (Unless you love it!) Every trip we offer is fully customizable, ensuring a personalized experience tailored to your school&rsquo;s educational goals.</em>
     </p>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Plan Your Custom Trip Today</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
   </div>
 )
 
@@ -95,7 +95,7 @@ const inclusionsTab = (
     <p style={{ marginTop: 20, color: 'var(--lm-ink-muted)', fontSize: 15, lineHeight: 1.7 }}>
       You have the flexibility to include or exclude specific services based on your group&rsquo;s preferences. While we recommend the value of an all-inclusive travel experience, the final decision is yours!
     </p>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Get a Custom Quote</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan a Trip</Link>
   </div>
 )
 
@@ -106,7 +106,7 @@ export default function Itin_usa_trips__washington_d_c__scouts() {
         eyebrow="Washington, D.C. · 3 Day / 2 Night"
         title={<>Scout Trips to Washington, D.C.</>}
         subtitle="Give your scout troop three unforgettable days in the nation's capital, connecting landmarks and museums with leadership, service, and civic pride."
-        image="/images/landmark/dc-hero.jpg"
+        image="/images/landmark/scouts-dc-capitol-group.jpg"
         breadcrumb={[
         { label: "Destinations", href: "/destinations/" },
         { label: "Washington, D.C.", href: "/usa-trips/washington-dc/" },
@@ -135,7 +135,7 @@ export default function Itin_usa_trips__washington_d_c__scouts() {
                 <div><dt>Best for</dt><dd>Scout troops, all levels</dd></div>
                 <div><dt>Style</dt><dd>Private, fully customizable</dd></div>
               </dl>
-              <Link href="/get-a-quote/" className="ile-btn ile-btn--primary lm-summary-cta">Get a Quote</Link>
+              <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary lm-summary-cta">Plan a Trip</Link>
               <Link href="/usa-trips/washington-dc/" className="lm-summary-link">More Washington, D.C. packages {ArrowR}</Link>
             </div>
 

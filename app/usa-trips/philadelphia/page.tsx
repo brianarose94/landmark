@@ -20,9 +20,9 @@ const HIGHLIGHTS = [
   "Historic districts and curated exhibits",
 ]
 const TRIPS = [
-  { title: "Philadelphia Student Tour", duration: "2 Day / 1 Night", img: '/images/landmark/philadelphia-1.jpg', href: "/usa-trips/philadelphia/philadelphia-student-tour/" },
-  { title: "2 Day Philadelphia School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/philadelphia-2.jpg', href: "/usa-trips/philadelphia/2-day-philadelphia-school-trip/" },
-  { title: "Historic Philadelphia School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/philadelphia-3.jpg', href: "/usa-trips/philadelphia/historic-philadelphia-school-trip/" },
+  { title: "Philadelphia Student Tour", duration: "2 Day / 1 Night", img: '/images/landmark/philly-liberty-bell-group.jpg', href: "/usa-trips/philadelphia/philadelphia-student-tour/" },
+  { title: "2 Day Philadelphia School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/philly-2day-constitution.jpg', href: "/usa-trips/philadelphia/2-day-philadelphia-school-trip/" },
+  { title: "Historic Philadelphia School Trip", duration: "3 Day / 2 Night", img: '/images/landmark/philly-historic-independence-hall.jpg', href: "/usa-trips/philadelphia/historic-philadelphia-school-trip/" },
 ]
 
 const STEPS = [
@@ -99,7 +99,7 @@ export default function Philadelphia() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

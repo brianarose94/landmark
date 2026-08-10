@@ -20,8 +20,8 @@ const HIGHLIGHTS = [
   "American history and its complexities",
 ]
 const TRIPS = [
-  { title: "Charleston Field Trip", duration: "3 Day / 2 Night", img: '/images/landmark/charleston-1.jpg', href: "/usa-trips/charleston/charleston-field-trip/" },
-  { title: "Charleston School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/charleston-2.jpg', href: "/usa-trips/charleston/charleston-school-trip/" },
+  { title: "Charleston Field Trip", duration: "3 Day / 2 Night", img: '/images/landmark/charleston-field-rainbow-row.jpg', href: "/usa-trips/charleston/charleston-field-trip/" },
+  { title: "Charleston School Trip", duration: "2 Day / 1 Night", img: '/images/landmark/charleston-school-pineapple-fountain.jpg', href: "/usa-trips/charleston/charleston-school-trip/" },
 ]
 
 const STEPS = [
@@ -46,8 +46,9 @@ export default function Charleston() {
         city="Charleston"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/charleston-1.jpg"
-        imageAlt="Historic Charleston, South Carolina"
+        image="/images/landmark/charleston-intro-broad-street.jpg"
+        wideImage
+        imageAlt="Historic Broad Street in Charleston, South Carolina, with St. Michael's Church steeple"
         tripCount={TRIPS.length}
       />
 
@@ -97,7 +98,7 @@ export default function Charleston() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

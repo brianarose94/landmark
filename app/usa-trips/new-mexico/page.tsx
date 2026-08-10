@@ -13,7 +13,7 @@ const INTRO_P1 =
   ""
 
 const TRIPS = [
-  { title: "New Mexico School Trip", duration: "4 Day / 3 Night", img: '/images/landmark/new-mexico-1.jpg', href: "/usa-trips/new-mexico/new-mexico-school-trip/" },
+  { title: "New Mexico School Trip", duration: "4 Day / 3 Night", img: '/images/landmark/new-mexico-school-santa-fe-college.jpg', href: "/usa-trips/new-mexico/new-mexico-school-trip/" },
 ]
 
 const STEPS = [
@@ -40,7 +40,7 @@ export default function NewMexico() {
             <p>{INTRO_P1}</p>
           </div>
           <div className="ile-center" style={{ marginTop: 32 }}>
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>
@@ -91,7 +91,7 @@ export default function NewMexico() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

@@ -79,7 +79,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <div className="lm-article-cta">
             <h3>Ready to plan your group&rsquo;s trip?</h3>
             <p>Our Travel Consultants build safe, custom, curriculum-aligned itineraries around your school.</p>
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Get a Free Quote</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
 
           {(prev || next) && (

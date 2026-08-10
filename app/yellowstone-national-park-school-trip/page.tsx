@@ -62,7 +62,7 @@ const descriptionTab = (
       {WHY.map((w) => (<li key={w.label}><strong>{w.label}:</strong> {w.text}</li>))}
     </ul>
     <p className="lm-sample-note"><em>Note: This is a SAMPLE provided for inspiration only. (Unless you love it!) Every trip we offer is fully customizable.</em></p>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Plan Your Custom Trip Today</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
   </div>
 )
 
@@ -74,7 +74,7 @@ const inclusionsTab = (
       {INCLUSIONS.map(([label, text]) => (<li key={label}><strong>{label}</strong>: {text}</li>))}
       <li><strong>&amp; More!</strong></li>
     </ul>
-    <Link href="/get-a-quote/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Get a Custom Quote</Link>
+    <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary" style={{ marginTop: 8 }}>Plan a Trip</Link>
   </div>
 )
 
@@ -108,7 +108,7 @@ export default function YellowstoneSchool() {
                 <div><dt>Best for</dt><dd>All grade levels</dd></div>
                 <div><dt>Style</dt><dd>Private, fully customizable</dd></div>
               </dl>
-              <Link href="/get-a-quote/" className="ile-btn ile-btn--primary lm-summary-cta">Get a Quote</Link>
+              <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary lm-summary-cta">Plan a Trip</Link>
               <Link href="/themes/" className="lm-summary-link">More trip themes {ArrowR}</Link>
             </div>
           </aside>

@@ -3,11 +3,11 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Plan a Trip',
   description:
-    'Book a call with a Landmark Travel Consultant to plan your student trip, or request a customized quote. Expertise when you need it, fun when you want it.',
+    'Plan a free, no-obligation trip for your student group. A Landmark Travel Consultant hand-builds a custom, curriculum-aligned itinerary around your destination, dates, grade level, and budget.',
   alternates: { canonical: '/plan-a-trip/' },
   openGraph: {
     title: 'Plan a Trip | Landmark Educational Tours',
-    description: 'Book a planning call with a Landmark Travel Consultant for your student group.',
+    description: 'Tell us about your trip and a Landmark Travel Consultant will build a custom plan for your student group.',
     url: '/plan-a-trip/',
   },
 }

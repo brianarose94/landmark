@@ -20,7 +20,7 @@ const HIGHLIGHTS = [
   "A world leader in renewable energy",
 ]
 const TRIPS = [
-  { title: "10 Day Norway School Trip", duration: "10 Day / 9 Night", img: '/images/landmark/norway-1.jpg', href: "/europe/norway/10-day-norway-school-trip/" },
+  { title: "10 Day Norway School Trip", duration: "10 Day / 9 Night", img: '/images/landmark/norway-10day-hilltop-group.jpg', href: "/europe/norway/10-day-norway-school-trip/" },
 ]
 
 const STEPS = [
@@ -51,8 +51,9 @@ export default function Norway() {
         city="Norway"
         lead={INTRO_P1}
         highlights={HIGHLIGHTS}
-        image="/images/landmark/norway-1.jpg"
-        imageAlt="A dramatic Norwegian fjord"
+        image="/images/landmark/norway-intro-flag-group.jpg"
+        wideImage
+        imageAlt="A Landmark student group holding the Norwegian flag by a fjord in winter"
         tripCount={TRIPS.length}
       />
 
@@ -122,7 +123,7 @@ export default function Norway() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>

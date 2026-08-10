@@ -31,7 +31,7 @@ export default function Themes() {
         eyebrow="Landmark Educational Tours"
         title={<>Top Tour <em>Themes</em></>}
         subtitle="Curriculum-focused programs built around what your students are studying, from civics and the arts to language immersion and the outdoors."
-        image="/images/landmark/dc-nmaahc.jpg"
+        image="/images/landmark/themes-hero-boston-old-state-house.jpg"
         breadcrumb={[{ label: 'Themes' }]}
       />
       <section className="ile-section ile-section--white" aria-labelledby="themes-h">
@@ -53,7 +53,7 @@ export default function Themes() {
             ))}
           </div>
           <div className="ile-center lm-after-grid">
-            <Link href="/get-a-quote/" className="ile-btn ile-btn--primary">Start Planning Your Trip</Link>
+            <Link href="/plan-a-trip/" className="ile-btn ile-btn--primary">Plan a Trip</Link>
           </div>
         </div>
       </section>
