@@ -50,8 +50,8 @@ const TOP_TOURS = [
 
 const DESTINATIONS = [
   { name: 'Washington, D.C.', href: '/usa-trips/washington-dc/', img: '/images/landmark/dc-lincoln-memorial-group.jpg' },
-  { name: 'New York City', href: '/usa-trips/new-york-city/', img: '/images/landmark/nyc-top-of-the-rock-group.jpg' },
-  { name: 'Boston', href: '/usa-trips/boston/', img: '/images/landmark/boston-fenway-group.jpg' },
+  { name: 'New York City', href: '/usa-trips/new-york-city/', img: '/images/landmark/home-nyc-bethesda-group.jpg', pos: 'center 72%' },
+  { name: 'Boston', href: '/usa-trips/boston/', img: '/images/landmark/home-boston-duck-tour-group.jpg' },
   { name: 'Atlanta', href: '/usa-trips/atlanta/', img: '/images/landmark/atlanta-centennial-park-group.jpg' },
 ]
 
@@ -185,7 +185,7 @@ export default function Home() {
           <div className="lm-dest-grid">
             {DESTINATIONS.map((d) => (
               <Link href={d.href} className="lm-dest" key={d.name} aria-label={`${d.name} student tours`}>
-                <img src={d.img} alt="" loading="lazy" />
+                <img src={d.img} alt="" loading="lazy" style={d.pos ? { objectPosition: d.pos } : undefined} />
                 <span className="lm-dest-label">{d.name} <span aria-hidden="true">→</span></span>
               </Link>
             ))}
@@ -207,7 +207,7 @@ export default function Home() {
           <div className="lm-intl-grid">
             {INTERNATIONAL.map((d) => (
               <Link href={d.href} className="lm-dest" key={d.name} aria-label={`${d.name} educational tours`}>
-                <img src={d.img} alt="" loading="lazy" />
+                <img src={d.img} alt="" loading="lazy" style={d.pos ? { objectPosition: d.pos } : undefined} />
                 <span className="lm-dest-label">{d.name} <span aria-hidden="true">→</span></span>
               </Link>
             ))}
