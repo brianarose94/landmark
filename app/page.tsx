@@ -48,7 +48,7 @@ const TOP_TOURS = [
   },
 ]
 
-const DESTINATIONS = [
+const DESTINATIONS: { name: string; href: string; img: string; pos?: string }[] = [
   { name: 'Washington, D.C.', href: '/usa-trips/washington-dc/', img: '/images/landmark/dc-lincoln-memorial-group.jpg' },
   { name: 'New York City', href: '/usa-trips/new-york-city/', img: '/images/landmark/home-nyc-bethesda-group.jpg', pos: 'center 72%' },
   { name: 'Boston', href: '/usa-trips/boston/', img: '/images/landmark/home-boston-duck-tour-group.jpg' },
@@ -59,7 +59,7 @@ const DESTINATIONS = [
 // One row (4) to match the USA row. Italy/Norway/Costa Rica use REAL Landmark student-group
 // photos (Colosseum · Bergen Bryggen · Costa Rica waterfall). Ireland has no student photo
 // (deferred by Ben) so it intentionally uses the live site's own Ireland hero image.
-const INTERNATIONAL = [
+const INTERNATIONAL: { name: string; href: string; img: string; pos?: string }[] = [
   { name: 'Italy', href: '/europe/italy/', img: '/images/landmark/intl-italy-group.jpg' },
   { name: 'Ireland', href: '/europe/ireland/', img: '/images/landmark/intl-ireland-live.jpg' },
   { name: 'Norway', href: '/europe/norway/', img: '/images/landmark/intl-norway-group.jpg' },
